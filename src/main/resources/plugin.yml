@@ -1,0 +1,23 @@
+
+name: DoraAntiSpoof
+version: 1.0.1
+main: vn.dorastudio.antispoof.DoraAntiSpoof
+api-version: '1.20'
+author: Dora Studio
+softdepend:
+  - floodgate
+description: Minecraft AntiSpoof Protection
+
+commands:
+  doraantispoof:
+    description: DoraAntiSpoof administration command
+    aliases:
+      - das
+    usage: /doraantispoof <reload|info>
+    permission: doraantispoof.admin
+
+permissions:
+  doraantispoof.admin:
+    default: op
+  doraantispoof.alerts:
+    default: op
