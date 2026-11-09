@@ -1,0 +1,8 @@
+prefix: "&8[&bDoraAntiSpoof&8] &r"
+
+alert: "&cSuspicious activity detected from &f%player%&c: &e%detail%"
+reload: "&aConfiguration reloaded successfully!"
+no-permission: "&cYou do not have permission."
+usage: "&eUsage: /doraantispoof reload"
+player-not-found: "&cPlayer not found."
+kick-message: "&cYour connection was not accepted by the server."
