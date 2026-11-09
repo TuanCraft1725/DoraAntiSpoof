@@ -1,0 +1,25 @@
+name: DoraAntiSpoof
+version: 1.0.1
+main: vn.dorastudio.doraantispoof.DoraAntiSpoof
+api-version: '1.20'
+author: TuanCraft1725
+description: Vietnamese and English client brand detection plugin
+
+depend:
+  - packetevents
+
+commands:
+  doraantispoof:
+    description: DoraAntiSpoof administration command
+    aliases:
+      - das
+    usage: /doraantispoof
+
+permissions:
+  doraantispoof.admin:
+    description: Allows administration of DoraAntiSpoof
+    default: op
+
+  doraantispoof.alert:
+    description: Receives anti-spoof alerts
+    default: op
