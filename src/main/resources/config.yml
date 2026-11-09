@@ -1,0 +1,36 @@
+general:
+  language: vi
+  debug: false
+
+checks:
+  brand:
+    enabled: true
+    flag-blank: true
+    flag-missing-brand: false
+    bedrock-exemption: true
+
+    bedrock-brands:
+      - "^MCPE$"
+      - "^Geyser$"
+
+    blocked-brands:
+      - ".*wurst.*"
+      - ".*aristois.*"
+      - ".*liquidbounce.*"
+      - ".*meteor.*"
+      - ".*inertia.*"
+      - ".*impact.*"
+
+  channels:
+    enabled: true
+
+    blocked:
+      - "^fabric-screen-handler-api-v1:open_screen$"
+
+punishments:
+  kick: false
+
+  kick-message: "&cClient không được máy chủ chấp nhận."
+
+logging:
+  console: true
