@@ -1,0 +1,8 @@
+prefix: "&8[&bDoraAntiSpoof&8] &r"
+
+alert: "&cPhát hiện dấu hiệu bất thường ở &f%player%&c: &e%detail%"
+reload: "&aĐã tải lại cấu hình thành công!"
+no-permission: "&cBạn không có quyền sử dụng lệnh này."
+usage: "&eSử dụng: /doraantispoof reload"
+player-not-found: "&cKhông tìm thấy người chơi."
+kick-message: "&cKết nối của bạn không được máy chủ chấp nhận."
